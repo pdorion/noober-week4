@@ -17,7 +17,7 @@ let rides = json
     let rideSection = document.querySelector(`.rides`)
 // Insert HTML into each ride element using the service level logic from week 3, using the data from each ride in the json
 
-//conditional for Noober XL with added larger text size
+//conditional for Noober XL with added larger text size on the dash
 if (ride.numberOfPassengers > 3) {
   rideSection.insertAdjacentHTML(`beforeend`, `
   <h1 class="inline-block mt-8 px-4 py-2 rounded-xl text-4xl bg-clip-text text-transparent bg-gradient-to-r from-blue-500 to-purple-500">
